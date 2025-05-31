@@ -3,7 +3,8 @@ import {
   HomeIcon,
   AcademicCapIcon,
   QuestionMarkCircleIcon,
-  ChartBarIcon
+  ChartBarIcon,
+  UserIcon
 } from '@heroicons/react/24/outline';
 
 function Navbar() {
@@ -21,6 +22,7 @@ function Navbar() {
             <NavLink to="/learn" icon={<AcademicCapIcon className="w-5 h-5" />} text="Learn" />
             <NavLink to="/quiz" icon={<QuestionMarkCircleIcon className="w-5 h-5" />} text="Quiz" />
             <NavLink to="/leaderboard" icon={<ChartBarIcon className="w-5 h-5" />} text="Leaderboard" />
+            <NavLink to="/login" icon={<UserIcon className="w-5 h-5" />} text="Login" />
           </div>
         </div>
       </div>

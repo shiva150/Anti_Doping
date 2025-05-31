@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Learn from './pages/Learn';
 import Quiz from './pages/Quiz';
 import Leaderboard from './pages/Leaderboard';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/learn" element={<Learn />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
       </div>
